@@ -1,0 +1,104 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+header {
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    font-family: Arial;
+    background-color: rgb(241, 213, 176);
+
+}
+
+#infos-header {
+    display: flex;
+    gap: 20px;
+    padding-top: 20px;
+    font-family: 'Lucida Sans';
+    font-weight: 700;
+    border-radius: 20px;
+}
+
+#img-inicio {
+    display: flex;
+    gap: 20px;
+}
+
+#img-inicio img {
+    width: 40px;
+    height: auto;
+    border-radius: 100px;
+}
+
+h1 {
+    font-size: 50px;
+    font-family: 'Lucida Sans';
+}
+
+#hero {
+    background-color: antiquewhite;
+    color: rgb(26, 11, 8);
+    display: flex;
+    justify-content: space-between;
+    font-family: Arial;
+}
+
+#cachorro-hero {
+    color: rgb(123, 86, 59);
+    font-family: Arial;
+}
+
+#dog-img img {
+    height: 400px;
+    border-radius: 50px;
+    padding: 20px;
+}
+
+#hero-info {
+    padding-top: 150px;
+    padding-left: 20px;
+    font-family: Arial;
+}
+
+#hero-texto {
+    padding-top: 20px;
+    font-size: 20px;
+    font-family: Arial;
+}
+
+.buttons-hero {
+    padding: 50px;
+    border-radius: 100px;
+    gap: 20px;
+    display: flex;
+}
+
+.buttons-hero a {
+    text-decoration: none;
+    background-color: rgb(143, 119, 82);
+    color: antiquewhite;
+    padding: 10px;
+    border-radius: 10px;
+    gap: 90px;
+}
+
+.porque-hero {
+    background-color: azure;
+    padding: 80px 20px;
+    font-family: Arial;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.porque-hero h2 {
+    font-size: 30px;
+}
+
+#foto-baixo img {
+    border-radius: 200px;
+    height: 30px;
+}

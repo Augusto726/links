@@ -1,0 +1,103 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+header {
+    padding-left: 50px;
+    padding-top: 20px;
+    font-family: Georgia, serif;
+    display: flex;
+    justify-content: space-between;
+}
+
+#p-header {
+    color: #bb0000;
+    font-family: Arial, sans-serif;
+}
+
+#main {
+    font-family: Arial, sans-serif;
+}
+
+#infos-header {
+    display: flex;
+    justify-content: space-evenly;
+    gap: 16px;
+    padding: 10px;
+    font-family: Arial, sans-serif;
+    color: rgb(50, 49, 49);
+}
+
+#hero {
+    padding: 20px;
+    font-weight: 700;
+    font-family: Arial, sans-serif;
+    display: flex;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    justify-content: space-between;
+    background-color: #FFFDD0;
+    border-radius: 20px;
+    margin: 20px;
+    gap: 200px;
+}
+
+#info-hero {
+    color: #bb0000;
+    font-size: 15px;
+}
+
+h2 {
+    font-size: 50px;
+    font-family: Georgia, serif;
+}
+
+#dog-hero {
+    width: 200px;
+    border-radius: 20px;
+}
+
+#infos-completas p {
+    color: #bb0000;
+    font-weight: 700;
+    font-family: Arial, sans-serif;
+    margin-left: 50px;
+}
+
+#h2-completo {
+    margin-left: 40px;
+    font-size: 40px;
+}
+
+
+.cards-container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    padding: 20px;
+    width: 100%;
+}
+
+
+.card-item {
+    background-color: #fffdd0c2;
+    width: 31.60%;
+    padding: 10px;
+    border-radius: 10px;
+    font-family: Arial, sans-serif;
+    text-align: center;
+}
+
+.fotos img {
+    width: 100%;
+    height: 250px;
+    object-fit: cover;
+    border-radius: 10px;
+}
+
+.nome-cachorro {
+    font-family: Georgia, serif;
+    font-size: 30px;
+}
