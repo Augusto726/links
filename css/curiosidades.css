@@ -19,18 +19,27 @@ header {
     background-color: #f4e3d3;
 }
 
-a {
-    text-decoration: none;
+#img-inicio {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+}
+
+#img-inicio img {
+    width: 40px;
+    height: auto;
+    border-radius: 100px;
+}
+
+h1 {
+    font-size: 50px;
+    font-family: Georgia, serif;
     color: #2b1f1d;
 }
 
-#p-header {
-    color: #8c7355;
-    font-family: Arial, sans-serif;
-}
-
-#main {
-    font-family: Arial, sans-serif;
+a {
+    text-decoration: none;
+    color: #2b1f1d;
 }
 
 #infos-header {
@@ -43,34 +52,12 @@ a {
     color: #2b1f1d;
 }
 
-#hero {
-    padding: 20px;
-    font-weight: 700;
+#main {
     font-family: Arial, sans-serif;
-    display: flex;
-    padding-top: 30px;
-    padding-bottom: 30px;
-    justify-content: space-between;
-    background-color: #faefeb;
-    border-radius: 20px;
-    margin: 20px;
-    gap: 200px;
 }
 
-#info-hero {
-    color: #8c7355;
-    font-size: 15px;
-}
-
-h2 {
-    font-size: 50px;
-    font-family: Georgia, serif;
-    color: #2b1f1d;
-}
-
-#dog-hero {
-    width: 200px;
-    border-radius: 20px;
+#infos-completas {
+    margin-top: 20px;
 }
 
 #infos-completas p {
@@ -83,6 +70,7 @@ h2 {
 #h2-completo {
     margin-left: 40px;
     font-size: 40px;
+    font-family: Georgia, serif;
     color: #2b1f1d;
 }
 
@@ -97,8 +85,8 @@ h2 {
 .card-item {
     background-color: #ffffff;
     width: 31.60%;
-    padding: 10px;
-    border-radius: 10px;
+    padding: 15px;
+    border-radius: 15px;
     font-family: Arial, sans-serif;
     text-align: center;
 }
@@ -113,7 +101,75 @@ h2 {
 .nome-cachorro {
     font-family: Georgia, serif;
     font-size: 30px;
+    margin: 10px 0;
     color: #2b1f1d;
+}
+
+.texto p {
+    font-size: 20px;
+    color: #665c54;
+    line-height: 1.4;
+}
+
+.cards-hero-baixo-container {
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+    padding: 20px 40px;
+    width: 100%;
+}
+
+.emoji-card {
+    font-size: 30px;
+    margin-bottom: 8px;
+}
+
+.titulo-card {
+    font-family: Georgia, serif;
+    font-weight: bold;
+    font-size: 28px;
+    color: #2b1f1d;
+    margin-bottom: 8px;
+}
+
+.texto-card {
+    font-size: 20px;
+    color: #665c54;
+    line-height: 1.4;
+}
+
+.banner-final {
+    background-color: #8c7355;
+    padding: 40px 20px;
+    text-align: center;
+    border-radius: 20px;
+    margin: 40px 20px 20px 20px;
+}
+
+.subtitulo-banner {
+    color: #f4e3d3;
+    font-weight: bold;
+    font-size: 14px;
+    font-family: Arial, sans-serif;
+    margin-bottom: 5px;
+}
+
+.banner-final h2 {
+    font-size: 32px;
+    font-family: Georgia, serif;
+    margin-bottom: 15px;
+    color: #ffffff;
+}
+
+.btn-banner {
+    display: inline-block;
+    background-color: #f4e3d3;
+    color: #2b1f1d;
+    padding: 10px 20px;
+    border-radius: 8px;
+    font-family: Arial, sans-serif;
+    font-weight: bold;
+    font-size: 14px;
 }
 
 footer {
